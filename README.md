@@ -22,6 +22,15 @@ python main.py
 6. 在wikitext数据集上进行ppl测试和加速测试
 7. 算法来源：https://github.com/NVIDIA/kvpress
 
+## 运行结果
+模型: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+数据集: wikitext
+基线 PPL: 10.37
+SnapKV PPL: 10.37
+基线耗时: 0.82s
+SnapKV 耗时: 0.21s
+加速比: 3.99x
+
 ## 实验结果说明
 程序运行后会自动对比两组推理数据：
 1. 原始模型无压缩推理耗时
